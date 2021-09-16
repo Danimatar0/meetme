@@ -1,45 +1,4 @@
-/*----------------------------------------------------
-@File: Default Styles
-@Author: Rocky Ahmed
-@URL: http://wethemez.com
-Author E-mail: rockybd1995@gmail.com
 
-This file contains the styling for the actual theme, this
-is the file you need to edit to change the look of the
-theme.
----------------------------------------------------- */
-/*=====================================================================
-@Template Name: Builder Construction 
-@Author: Rocky Ahmed
-@Developed By: Rocky Ahmed
-@Developer URL: http://rocky.wethemez.com
-Author E-mail: rockybd1995@gmail.com
-
-@Default Styles
-
-Table of Content:
-01/ Variables
-02/ predefin
-03/ header
-04/ button
-05/ banner
-06/ breadcrumb
-07/ about
-08/ team
-09/ project 
-10/ price 
-11/ team 
-12/ blog 
-13/ video  
-14/ features  
-15/ career  
-16/ contact 
-17/ footer
-
-=====================================================================*/
-/*----------------------------------------------------*/
-/*font Variables*/
-/*Color Variables*/
 /*=================== fonts ====================*/
 @import url("https://fonts.googleapis.com/css?family=Heebo:300,400,700,900|Roboto:300,400,500,700");
 /*---------------------------------------------------- */
@@ -3007,4 +2966,361 @@ nav a:hover {
   border-top: 4px solid white;
   border-bottom: 4px solid white;
   padding: 4px 0; 
+}
+
+/*Animations*/
+.anim-feature-1{
+  animation: animate-feat-1-frames 1s ease 0.1s 1 normal forwards;
+  opacity: 0;
+}
+
+@keyframes animate-feat-1-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+
+.anim-feature-2{
+  animation: animate-feat-2-frames 2s ease 0.20s 1 normal forwards;
+  opacity: 0;
+}
+
+@keyframes animate-feat-2-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.anim-feature-3{
+  animation: animate-feat-3-frames 3s ease 0.30s 1 normal forwards;
+  opacity: 0;
+}
+
+@keyframes animate-feat-3-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.anim-dot-1{
+  animation: animate-dot-1-frames 1s ease 0.2s 1 normal forwards;
+  opacity: 0;
+}
+
+@keyframes animate-dot-1-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.anim-dot-2{
+  animation: animate-dot-2-frames 2s ease 0.2s 1 normal forwards;
+  opacity: 0;
+}
+
+@keyframes animate-dot-2-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.anim-dot-3{
+  animation: animate-dot-3-frames 3s ease 0.2s 1 normal forwards;
+  opacity: 0;
+}
+
+@keyframes animate-dot-3-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.anim-dot-4{
+  animation: animate-dot-4-frames 4s ease 0.2s 1 normal forwards;
+  opacity: 0;
+}
+
+@keyframes animate-dot-4-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.anim-dot-5{
+  animation: animate-dot-5-frames 5s ease 0.2s 1 normal forwards;
+  opacity: 0;
+}
+
+@keyframes animate-dot-5-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.anim-dot-6{
+  animation: animate-dot-6-frames 6s ease 0.2s 1 normal forwards;
+  opacity: 0;
+}
+
+@keyframes animate-dot-6-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.anim-dot-7{
+  animation: animate-dot-7-frames 7s ease 0.2s 1 normal forwards;
+  opacity: 0;
+}
+
+@keyframes animate-dot-7-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.anim-date-1{
+  animation: animate-date-1-frames 0.5s ease 0.2s 1 normal forwards;
+  opacity: 0;
+}
+@keyframes animate-date-1-frames {
+  from{opacity: 0}
+  to{opacity: 1;}
+
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 100%;
+  }
+  100% {
+    left: 0;    
+  }
+}
+
+.anim-date-2{
+  animation: animate-date-2-frames 1s ease 0.2s 1 normal forwards;
+  opacity: 0;
+}
+
+@keyframes animate-date-2-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.anim-date-3{
+  animation: animate-date-3-frames 2.5s ease 0.2s 1 normal forwards;
+  opacity: 0;
+}
+
+@keyframes animate-date-3-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.anim-date-4{
+  animation: animate-date-4-frames 4s ease 0.2s 1 normal forwards;
+  opacity: 0;
+}
+
+@keyframes animate-date-4-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.anim-date-5{
+  animation: animate-date-5-frames 5.5s ease 0.2s 1 normal forwards;
+  opacity: 0;
+}
+
+@keyframes animate-date-5-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+
+}
+
+.anim-date-6{
+  animation: animate-date-6-frames 7s ease 0.2s 1 normal forwards;
+  opacity: 0;
+}
+
+@keyframes animate-date-6-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+
+}
+
+.anim-date-7{
+  animation: animate-date-7-frames 8.5s ease 0.2s 1 normal forwards;
+  opacity: 0;
+}
+
+@keyframes animate-date-7-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+
+}
+
+.anim-loc-4{
+  animation: animate-loc-4-frames 7s ease 0.2s 1 normal forwards;
+  opacity: 0;
+}
+
+@keyframes animate-loc-4-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+
+}
+.anim-loc-1{
+  animation: animate-loc-1-frames 7s ease 0.2s 1 normal forwards;
+  opacity: 0;
+}
+
+@keyframes animate-loc-1-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+.anim-loc-2{
+  animation: animate-loc-2-frames 7s ease 0.2s 1 normal forwards;
+  opacity: 0;
+}
+
+@keyframes animate-loc-2-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.anim-loc-3{
+  animation: animate-loc-3-frames 7s ease 0.2s 1 normal forwards;
+  opacity: 0;
+}
+
+@keyframes animate-loc-3-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.anim-loc-5{
+  animation: animate-loc-5-frames 7s ease 0.2s 1 normal forwards;
+  opacity: 0;
+}
+
+@keyframes animate-loc-5-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.anim-loc-6{
+  animation: animate-loc-6-frames 7s ease 0.2s 1 normal forwards;
+  opacity: 0;
+}
+
+@keyframes animate-loc-6-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.anim-loc-7{
+  animation: animate-loc-7-frames 7s ease 0.2s 1 normal forwards;
+  opacity: 0;
+}
+
+@keyframes animate-loc-7-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.anim-pos-1{
+  animation: animate-pos-1-frames 7s ease 0.2s 1 normal forwards;
+  opacity: 0;
+}
+
+@keyframes animate-pos-1-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+.anim-pos-2{
+  animation: animate-pos-2-frames 7s ease 0.2s 1 normal forwards;
+  opacity: 0;
+}
+
+@keyframes animate-pos-2-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+.anim-pos-3{
+  animation: animate-pos-3-frames 7s ease 0.2s 1 normal forwards;
+  opacity: 0;
+}
+
+@keyframes animate-pos-3-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.anim-pos-4{
+  animation: animate-pos-4-frames 7s ease 0.2s 1 normal forwards;
+  opacity: 0;
+}
+
+@keyframes animate-pos-4-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.anim-major-1{
+  animation: animate-major-1-frames 7s ease 0.2s 1 normal forwards;
+  opacity: 0;
+}
+
+@keyframes animate-major-1-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
 }
